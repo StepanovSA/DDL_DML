@@ -29,6 +29,7 @@ ALTER USER 'sys_test'@'localhost' IDENTIFIED WITH mysql_native_password BY 'pass
 Составьте таблицу, используя любой текстовый редактор или Excel, в которой должно быть два столбца: в первом должны быть названия таблиц восстановленной базы, во втором названия первичных ключей этих таблиц. Пример: (скриншот/текст)
 ![alt text](https://github.com/StepanovSA/DDL_DML/blob/main/db5.png)
 
+```
 Название таблицы             | Название первичного ключа
 actor                        | actor_id
 actor_info                   | 
@@ -53,6 +54,6 @@ sales_by_store               |
 staff                        | staff_id
 staff_list                   | 
 store                        | store_id
-
+```
 
 
